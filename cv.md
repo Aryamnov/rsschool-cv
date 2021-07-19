@@ -8,7 +8,7 @@
 
 *You can write to me:*
 1. **e-mail: aryamnov@gmail.com;**
-2. **Whats-up, telegram:**
+2. **WhatsApp, telegram:**
 
 ## About me:
 
