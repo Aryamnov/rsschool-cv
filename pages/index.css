@@ -1,0 +1,51 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+.page {
+    font-family: Inter,Arial,sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.avatar-image {
+    width: 200px;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.contacts-num {
+    font-weight: bold;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.skills-num {
+    font-weight: bold;
+}
+
+.works-link {
+    text-decoration: none;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-logo {
+    width: 150px;
+}
