@@ -38,6 +38,11 @@ h2 {
     font-weight: bold;
 }
 
+.example-image {
+    max-width: 100%;
+    height: auto;
+}
+
 .works-link {
     text-decoration: none;
 }
