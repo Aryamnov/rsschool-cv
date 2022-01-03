@@ -11,54 +11,82 @@
 </head>
 <body>
     <div class="page">
-        <header class="header">
-            <h1>Andrey Aryamnov</h1>
-        </header>
-        <main class="content">
-            <div class="avatar">
-                <img src="./images/avatar.JPG" alt="author cv." class="avatar-image">
-                <p class="avatar-subtitle">Hey! My name is Andrey Aryamnov</p>
-            </div>
-            <section class="contacts">
-                <h2 class="contacts-title">Contacts</h2>
-                <h3 class="contacts-subtitle">You can write to me:</h3>
-                <ul class="contacts-list">
-                    <li class="contacts-element"><span class="contacts-num">e-mail:</span> aryamnov@gmail.com;</li>
-                    <li class="contacts-element"><span class="contacts-num">WhatsApp, telegram:</span> +7913913986.</li>
-                </ul>
-            </section>
-            <section class="about">
-                <h2 class="about-title">About me</h2>
-                <p class="about-text">I am a front-end developer, I am finishing courses from Yandex. Interesting technologies, self-development, I would like to take part in joint development and perform non-standard tasks.</p>
-            </section>
-            <section class="skills">
-                <h2 class="skills-title">My skills</h2>
-                <ul class="skills-list">
-                    <li class="skills-element"><span class="skills-num">1. </span>HTML;</li>
-                    <li class="skills-element"><span class="skills-num">2. </span>CSS (with LESS, SASS and etc);</li>
-                    <li class="skills-element"><span class="skills-num">3. </span>JS;</li>
-                    <li class="skills-element"><span class="skills-num">4. </span>React;</li>
-                    <li class="skills-element"><span class="skills-num">5. </span>Express;</li>
-                    <li class="skills-element"><span class="skills-num">6. </span>Git...</li>
-                </ul>
-                <p class="skills-subtitle">The list is supplemented</p>
-            </section>
-            <section class="works">
-                <h2 class="works-title">My works</h2>
-                <p class="works-text">You can familiarize yourself with my works in the repository, as well as <a class="works-link" href="https://aryamnov.github.io/how-to-learn/">here</a> and <a class="works-link" href="https://aryamnov.github.io/russian-travel/index.html">here</a>.</p>
-                <p class="works-react">If you want to see my work on React - write to me</p>
-            </section>
-            <section class="education">
-                <h2 class="education-title">Education</h2>
-                <p class="education-text">I completed courses at the university NSTU, and I am also finishing Yandex courses. English level: intermediate.</p>
-            </section>
-            <footer class="footer">
-                <h2 class="footer-title">Code examples</h2>
-                <p class="footer-text">Please see my <a class="footer-link" href="https://github.com/Aryamnov?tab=repositories">repository</a>. I will be glad to have your code review.</p>
-                <p class="footer__copyright">&copy; 2021.</p>
-                <a class="footer-rs" href="https://rs.school/js/"><img class="footer-logo" src="./images/rs_school_js.svg" alt="rss avatar."></a>
-            </footer>
-        </main>
+        <div class="page-container">
+            <header class="header">
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-element"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="navbar-element"><a href="#about" class="nav-link">About me</a></li>
+                        <li class="navbar-element"><a href="#skills" class="nav-link">My skills</a></li>
+                        <li class="navbar-element"><a href="#works" class="nav-link">My works</a></li>
+                        <li class="navbar-element"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="navbar-element"><a href="#code-examples" class="nav-link">Code examples</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="content">
+                <div class="avatar">
+                    <img src="./images/avatar.JPG" alt="author cv." class="avatar-image">
+                    <div class="">
+                        <h1>ANDREY ARYAMNOV</h1>
+                        <p class="avatar-subtitle">Web developer</p>
+                    </div>
+                </div>
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts-title">Contacts</h2>
+                    <h3 class="contacts-subtitle">You can write to me:</h3>
+                    <ul class="contacts-list">
+                        <li class="contacts-element"><span class="contacts-num">e-mail:</span> aryamnov@gmail.com;</li>
+                        <li class="contacts-element"><span class="contacts-num">WhatsApp, telegram:</span> +79538884732.</li>
+                    </ul>
+                </section>
+                <section class="about" id="about">
+                    <h2 class="about-title">About me</h2>
+                    <p class="about-text">I am a web developer, I am finishing courses from Yandex. Interesting technologies, self-development, I would like to take part in joint development and perform non-standard tasks.</p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="skills-title">My skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-element"><span class="skills-num">1. </span>HTML;</li>
+                        <li class="skills-element"><span class="skills-num">2. </span>CSS (with LESS, SASS and etc);</li>
+                        <li class="skills-element"><span class="skills-num">3. </span>JavaScript;</li>
+                        <li class="skills-element"><span class="skills-num">4. </span>TypeScript;</li>
+                        <li class="skills-element"><span class="skills-num">5. </span>React;</li>
+                        <li class="skills-element"><span class="skills-num">6. </span>Express;</li>
+                        <li class="skills-element"><span class="skills-num">7. </span>Git...</li>
+                    </ul>
+                    <p class="skills-subtitle">The list is supplemented</p>
+                </section>
+                <section class="works" id="works">
+                    <h2 class="works-title">My works</h2>
+                    <p class="works-text">You can familiarize yourself with my works in the repository, as well as <a class="works-link" href="https://aryamnov.ru">here</a>.</p>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="education-title">Education</h2>
+                    <p class="education-text">I completed courses at the university NSTU, and I am also finishing Yandex courses. English level: intermediate.</p>
+                </section>
+                <footer class="footer">
+                    <h2 class="footer-title" id="code-examples">Code examples</h2>
+                    <code class="footer-text">  
+                        React.useEffect(() => {
+                            setIsLoading(true);
+                            api
+                            .getAllinfo()
+                            .then(([resUsers, resPhotos]) => {
+                                const arr = resUsers.filter((item: userInterface) =>
+                                item.name.toUpperCase().includes(value.toUpperCase())
+                                );
+                                setUsers(arr);
+                                setPhotos(resPhotos);
+                            })
+                            .finally(() => setIsLoading(false));
+                        }, [value]);</code>
+                    <p class="footer__copyright">&copy; 2022.</p>
+                    <a class="footer-link" href="https://github.com/Aryamnov">My GitHub</a>
+                    <a class="footer-rs" href="https://rs.school/js/"><img class="footer-logo" src="./images/rs_school_js.svg" alt="rss avatar."></a>
+                </footer>
+            </main>
+        </div>
     </div>
 </body>
 </html>
